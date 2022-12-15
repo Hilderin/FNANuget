@@ -6,6 +6,9 @@
         <version>22.12</version>
         <description>Nuget package for FNA-XNA wrapping the libray from https://fna-xna.github.io/</description>
         <authors>Guillaume Lebrun</authors>
+        <projectUrl>https://github.com/Hilderin/FNANuget</projectUrl>
+        <license type="expression">MIT</license>
+        <readme>docs\readme.md</readme>
     </metadata>
     <files>
         <!-- binding libraries -->
@@ -18,6 +21,8 @@
         <file src="fnalibs\x86\*.*" target="runtimes/x86"/>
         <!-- targets file -->
         <file src="FNA.targets" target="build/"/>
+        <!-- docs -->
+        <file src="readme.md" target="docs\" />
     </files>
    
 </package>

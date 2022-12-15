@@ -6,14 +6,10 @@ The objective for this package is to make it easier to setup a new projet with F
 ## How to build
 1. Clone de repo: 
 ```
-git clone --recursive https://github.com/Hilderin/FNANuget.git
+git clone https://github.com/Hilderin/FNANuget.git
 ```
 
-2. Download the native libraries for FNA in the folder "..\fnalibs" from here: https://fna.flibitijibibo.com/archive/fnalibs.tar.bz2
-
-3. Clone this github repository.
-
-4. Run build.bat
+2. Run build.bat
 
 
 
