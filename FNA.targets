@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<Project>
+        <ItemGroup Condition="$([MSBuild]::IsOSPlatform('Windows')) AND '$(Platform)' == 'x64'">
+                <Content Include="$(MSBuildThisFileDirectory)..\runtimes\x64\*.dll">
+                        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+                        <Link>%(FileName)%(Extension)</Link>
+                </Content>
+        </ItemGroup>
+        <ItemGroup Condition="$([MSBuild]::IsOSPlatform('Windows')) AND '$(Platform)' == 'x86'">
+                <Content Include="$(MSBuildThisFileDirectory)..\runtimes\x86\*.dll">
+                        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+                        <Link>%(FileName)%(Extension)</Link>
+                </Content>
+        </ItemGroup>
+        <ItemGroup Condition="$([MSBuild]::IsOSPlatform('Linux'))">
+                <Content Include="$(MSBuildThisFileDirectory)..\runtimes\lib64\*.so.0">
+                        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+                        <Link>%(FileName)%(Extension)</Link>
+                </Content>
+        </ItemGroup>
+        <ItemGroup Condition="$([MSBuild]::IsOSPlatform('OSX'))">
+                <Content Include="$(MSBuildThisFileDirectory)..\runtimes\osx\*.dylib">
+                        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+                        <Link>%(FileName)%(Extension)</Link>
+                </Content>
+        </ItemGroup>
+</Project>

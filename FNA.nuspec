@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+    <metadata>
+        <!-- Required elements-->
+        <id>FNA</id>
+        <version>22.12</version>
+        <description>Nuget package for FNA</description>
+        <authors>Guillaume Lebrun</authors>
+    </metadata>
+    <files>
+        <!-- binding libraries -->
+        <file src="..\FNA\bin\Release\FNA.dll" target="lib\net45" />
+        <!-- native libraries -->
+        <file src="..\fnalibs\lib64\*.*" target="runtimes/lib64"/>
+        <file src="..\fnalibs\osx\*.*" target="runtimes/osx"/>
+        <file src="..\fnalibs\vulkan\*.*" target="runtimes/vulkan"/>
+        <file src="..\fnalibs\x64\*.*" target="runtimes/x64"/>
+        <file src="..\fnalibs\x86\*.*" target="runtimes/x86"/>
+        <!-- targets file -->
+        <file src="FNA.targets" target="build/"/>
+    </files>
+   
+</package>
