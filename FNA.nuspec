@@ -9,6 +9,7 @@
         <projectUrl>https://github.com/Hilderin/FNANuget</projectUrl>
         <license type="expression">MIT</license>
         <readme>docs\readme.md</readme>
+        <icon>images\FNA.png</icon>
     </metadata>
     <files>
         <!-- binding libraries -->
@@ -23,6 +24,8 @@
         <file src="FNA.targets" target="build/"/>
         <!-- docs -->
         <file src="readme.md" target="docs\" />
+        <!-- images -->
+        <file src="FNA.png" target="images\" />
     </files>
    
 </package>
