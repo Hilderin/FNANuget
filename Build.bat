@@ -9,6 +9,6 @@ ECHO Building FNA.sln...
 dotnet build FNA\FNA.sln --configuration "Release"
 
 ECHO Creating nuget package...
-nuget pack FNA.nuspec
+nuget pack FNA-XNA-Wrapper.nuspec
 
 ECHO Package ready!
