@@ -6,7 +6,7 @@ REM The Native libaries met be the the "..\fnalibs" folder
 REM ---------------
 
 ECHO Building FNA.sln...
-dotnet build ..\FNA\FNA.sln --configuration "Release"
+dotnet build FNA\FNA.sln --configuration "Release"
 
 ECHO Creating nuget package...
 nuget pack FNA.nuspec

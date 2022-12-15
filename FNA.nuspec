@@ -2,14 +2,14 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
     <metadata>
         <!-- Required elements-->
-        <id>FNA</id>
+        <id>FNA-XNA-Wrapper</id>
         <version>22.12</version>
-        <description>Nuget package for FNA</description>
+        <description>Nuget package for FNA-XNA wrapping the libray from https://fna-xna.github.io/</description>
         <authors>Guillaume Lebrun</authors>
     </metadata>
     <files>
         <!-- binding libraries -->
-        <file src="..\FNA\bin\Release\FNA.dll" target="lib\net45" />
+        <file src="FNA\bin\Release\FNA.dll" target="lib\net45" />
         <!-- native libraries -->
         <file src="..\fnalibs\lib64\*.*" target="runtimes/lib64"/>
         <file src="..\fnalibs\osx\*.*" target="runtimes/osx"/>

@@ -4,9 +4,9 @@ The objective for this package is to make it easier to setup a new projet with F
 
 
 ## How to build
-1. Download or clone the FNA projet in the folder "..\FNA"
+1. Clone de repo: 
 ```
-git clone --recursive https://github.com/FNA-XNA/FNA
+git clone --recursive https://github.com/Hilderin/FNANuget.git
 ```
 
 2. Download the native libraries for FNA in the folder "..\fnalibs" from here: https://fna.flibitijibibo.com/archive/fnalibs.tar.bz2
@@ -17,3 +17,7 @@ git clone --recursive https://github.com/FNA-XNA/FNA
 
 
 
+## Documentation
+Documentation for FNA can be found on the FNA wiki:
+
+https://github.com/FNA-XNA/FNA/wiki
