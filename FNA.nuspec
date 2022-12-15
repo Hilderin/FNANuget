@@ -11,11 +11,11 @@
         <!-- binding libraries -->
         <file src="FNA\bin\Release\FNA.dll" target="lib\net45" />
         <!-- native libraries -->
-        <file src="..\fnalibs\lib64\*.*" target="runtimes/lib64"/>
-        <file src="..\fnalibs\osx\*.*" target="runtimes/osx"/>
-        <file src="..\fnalibs\vulkan\*.*" target="runtimes/vulkan"/>
-        <file src="..\fnalibs\x64\*.*" target="runtimes/x64"/>
-        <file src="..\fnalibs\x86\*.*" target="runtimes/x86"/>
+        <file src="fnalibs\lib64\*.*" target="runtimes/lib64"/>
+        <file src="fnalibs\osx\*.*" target="runtimes/osx"/>
+        <file src="fnalibs\vulkan\*.*" target="runtimes/vulkan"/>
+        <file src="fnalibs\x64\*.*" target="runtimes/x64"/>
+        <file src="fnalibs\x86\*.*" target="runtimes/x86"/>
         <!-- targets file -->
         <file src="FNA.targets" target="build/"/>
     </files>
