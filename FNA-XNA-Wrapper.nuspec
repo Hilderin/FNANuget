@@ -3,12 +3,12 @@
     <metadata>
         <!-- Required elements-->
         <id>FNA-XNA-Wrapper</id>
-        <version>22.12.1</version>
+        <version>22.12.2</version>
         <description>FNA-XNA wrapper for library .Net 4.5 from https://fna-xna.github.io/</description>
         <authors>Guillaume Lebrun</authors>
         <projectUrl>https://github.com/Hilderin/FNANuget</projectUrl>
         <license type="expression">MIT</license>
-        <readme>docs\readme.md</readme>
+        <readme>docs\readme-nuget.md</readme>
         <icon>images\FNA.png</icon>
     </metadata>
     <files>
@@ -23,7 +23,7 @@
         <!-- targets file -->
         <file src="FNA-XNA-Wrapper.targets" target="build/"/>
         <!-- docs -->
-        <file src="readme.md" target="docs\" />
+        <file src="readme-nuget.md" target="docs\" />
         <!-- images -->
         <file src="FNA.png" target="images\" />
     </files>

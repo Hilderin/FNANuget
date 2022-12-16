@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <Project>
-        <ItemGroup Condition="$([MSBuild]::IsOSPlatform('Windows')) AND '$(Platform)' == 'x64'">
+        <ItemGroup Condition="$([MSBuild]::IsOSPlatform('Windows')) AND '$(Platform)' != 'x86'">
                 <Content Include="$(MSBuildThisFileDirectory)..\runtimes\x64\*.dll">
                         <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
                         <Link>%(FileName)%(Extension)</Link>
