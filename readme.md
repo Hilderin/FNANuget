@@ -1,6 +1,6 @@
 # Nuget package for FNA
 The objective for this package is to make it easier to setup a new project with FNA-XNA.
-No need to download, build the FNA.sln dans setup the native librairies.
+No need to download, build the FNA.sln and setup the native librairies in your project. Just install this package.
 
 WARNING: This package has not been tested on Linux/Mac.
 
