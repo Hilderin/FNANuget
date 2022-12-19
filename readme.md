@@ -7,7 +7,7 @@ WARNINGS:
 - I had to update the FNA.sln and FNA.csproj to build it with VS2022 for .Net 4.5. The .Net 4 Developer Pack is not supported anymore. That's why i imported all the code for FNA in this repo.
 
 
-## How to build du nuget package
+## How to build the nuget package
 1. Clone de repo: 
 ```
 git clone https://github.com/Hilderin/FNANuget.git
